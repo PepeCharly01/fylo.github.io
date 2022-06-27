@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+header .logo img {
+    width: 100px;
+}
+.header-nav ul {
+    display: flex;
+    list-style: none;
+}
+.header-nav ul a {
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: gray;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: aliceblue;
+}
+.illustration img {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 760px;
+    height: 0 auto;
+    margin-top: 30px;
+}
+.primer-texto {
+    position: relative;
+    width: 100%;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+}
+.primer-texto h1 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: rgb(2, 2, 58);
+}
+.primer-texto p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: rgb(2, 2, 58);
+}
+main .input input{
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    border-color: grey;
+    outline: none;
+}
+main .input button {
+    width: 28rem;
+    height: 4rem;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 84, 202);
+    color: white;
+    margin-top: 10px;
+}
+.segunda-imagenes {
+    position: relative;
+    width: 100%;
+    min-width: 375px;
+}
+.segunda-imagenes .curve {
+    width: 90%;
+    min-width: 320px;
+    max-width: 760px;
+}
+.segunda-imagenes .ilustracion-2 {
+    width: 90%;
+    min-width: 350px;
+    max-width: 760px;
+    margin-bottom: 50px;
+}
+.segundo-texto {
+    position: relative;
+    width: 100%;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+}
+.segundo-texto .segundo-titulo {
+    width: 70%;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: rgb(2, 2, 58);
+}
+.segundo-texto .texto-1, .texto-2 {
+    width: 80%;
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(2, 2, 58);
+}
+.segundo-texto .see-fylo {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: rgb(28, 100, 10);
+}
+.segundo-texto .see-fylo .arrow {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-image: url('./assets/icon-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detail-card {
+    position: relative;
+    width: 90%;
+    min-width: 288px;
+    max-width: 300px;
+    height: auto;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.detail-card .comillas {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icon-quotes.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.detail-card .card-body {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.detail-card .perfil {
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail-card .img-perfil {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background-image: url('./assets/avatar-testimonial.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.detail-card .text-perfil {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    text-align: justify;
+}
+.detail-card .text-perfil .nombre {
+    font-weight: bold;
+}
+.last-container {
+    position: relative;
+    width: 100%;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+    background-color: rgb(89, 78, 129);
+}
+.last-container h2 {
+    width: 70%;
+    height: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+.last-container p {
+    width: 80%;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+.email-free input {
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    border-color: grey;
+    outline: none;
+}
+.email-free button {
+    width: 25rem;
+    height: 4rem;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(29, 84, 202);
+    color: white;
+    margin-top: 10px;
+}
+footer {
+    width: 100%;
+    height: 0 auto;
+    position: absolute;
+    background-color: rgb(12, 12, 82);
+}
+footer .logo-footer img {
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+footer .contact {
+    display: flex;
+    width: 100%;
+    height: 0 auto;
+}
+footer .contact-fhone {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('./assets/icon-phone.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer p {
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    font-size: 1.6rem;
+    color: white;
+}
+footer .contact-email {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    margin-right: 10px;
+    background-image: url('./assets/icon-email.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer .contact-list {
+    margin-left: 25px;
+}
+footer .contact-list-1 {
+    margin-bottom: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 4rem;
+}
+footer .contact-list-2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
